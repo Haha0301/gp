@@ -1,0 +1,115 @@
+#wrap{
+	width: 16.0rem;
+	height: 102.421rem;
+	background: url(../images/banner2.png) no-repeat;
+	background-size: contain;
+}
+#wrap #content{
+	width: 14.507rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#wrap #content .info{
+	margin-top: 13.568rem;
+	margin-bottom: 1.621rem;
+}
+#wrap #content .info li{
+	margin-bottom: 0.363rem;
+}
+#wrap #content .info li input{
+	width: 13.004rem;
+	height: 1.813rem;
+	padding-left: 1.493rem;
+}
+
+#wrap #content .info li .phone{
+	background: url(../images/phone.png) no-repeat;
+	background-size: contain;
+}
+#wrap #content .info li .picture{
+	background: url(../images/picture.png) no-repeat;
+	width: 6.614rem;
+	background-size: contain;
+}
+#wrap #content .info li .verify{
+	background: url(../images/verify.png) no-repeat;
+	width: 6.614rem;
+	background-size: contain;
+}
+#wrap #content .info li .pass{
+	background: url(../images/pass.png) no-repeat;
+	background-size: contain;
+}
+#wrap #content .info li .invite{
+	background: url(../images/invite.png) no-repeat;
+	background-size: contain;
+}
+#wrap #content .info .pictureLi .picbtn{
+	background:  url(../images/picture1.png) no-repeat;
+	background-size: contain;
+	width: 6.044rem;
+	height: 1.856rem;
+	margin-left: 0.186rem;
+}
+#wrap #content .info .verifyLi a{
+	display: inline-block;
+	background:  url(../images/verifybtn.png) no-repeat;
+	background-size: contain;
+	width: 6.044rem;
+	height: 1.856rem;
+	vertical-align:middle;
+}
+#wrap #content .info li .get{
+	text-align: center;
+	width: 14.635rem;
+	height: 1.856rem;
+	line-height: 1.856rem;
+	display: block;
+	background: url(../images/getbtn.png) no-repeat;
+	background-size: contain;
+	color: #5d1a08;
+	font-size: 0.64rem;
+	font-weight: bold;
+}
+#wrap #content .notice li{
+	margin-bottom: 0.853rem;
+}
+#wrap #content .notice img{
+	width: 14.869rem;
+}
+#wrap #content .notice .introduce{
+	position: relative;	
+	margin-bottom: 1.387rem;
+}
+#wrap #content .notice .introduce h1{
+	width:10.173rem;
+	color: red;
+	position: absolute;
+	top: 5.461rem;
+	left: 3rem;
+	color: #f6390d;
+	font-size: 0.278rem;
+	transform:scale(0.9);
+}
+#wrap #content .notice .introduce p{
+	width: 10.24rem;
+	color: red;
+	position: absolute;
+	left: 2.56rem;
+	top: 6.4rem;
+	font-size: 0.186rem;
+	color: #525151;
+	line-height: 0.64rem;
+	transform:scale(0.9);
+}
+#wrap #content #btn{
+	text-align: center;
+	height: 1.856rem;
+	line-height: 1.856rem;
+	display: block;
+	background: url(../images/btn.png) no-repeat;
+	background-size: contain;
+	color: #5d1a08;
+	font-size: 0.64rem;
+	font-weight: bold;
+}

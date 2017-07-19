@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title></title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/clear.css">
+	<link rel="stylesheet" type="text/css" href="./css/mobile.css">
+    <script type="text/javascript">
+    	(function(win,doc){
+		    function change(){
+		        doc.documentElement.style.fontSize=doc.documentElement.clientWidth*20/320+'px';
+		    }
+		    change();
+		    win.addEventListener('resize',change,false);
+		})(window,document);
+    </script>
+</head>
+<body>
+	<div id="wrap" class="clear-fix">
+		<div id="top" class="fl"></div>
+		<div id="content">
+			<ul class="info">
+				<li><input type="text" placeholder="请输入手机号" class="phone" /></li>
+				<li class="pictureLi clear-fix">
+					<input type="text" placeholder="请输入图形码" class="picture fl" />
+					<div class="picbtn fl">
+						<img src="">
+					</div>
+				</li>
+				<li class="verifyLi">
+					<input type="text" placeholder="请输入验证码" class="verify" />
+					<a href="#javascript:;"></a>
+				</li>
+				<li><input type="text" placeholder="请输入设置6-16位字符密码" class="pass" /></li>
+				<li><input type="text" placeholder="邀请码(选填)" class="invite" /></li>
+				<li><a href="javascript:;" class="get">立 即 领 取 618 红 包</a></li>
+			</ul>
+			<ul class="notice">
+				<li><img src="./images/welfare.png"></li>
+				<li><img src="./images/new.png"></li>
+				<li><img src="./images/safety.png"></li>
+				<li class="introduce" >
+					<img src="./images/introduce.png">
+					<h1>专注于钢铁产业供应链的金融信息服务平台</h1>
+					<p>以“促进钢铁行业发展，做有温度的金融服务平台平台”为宗旨，致力于成为钢铁产业最为卓越的互联网金融企业，为钢铁金融、普惠金融添加助力。在降低企业融资成本的同时，帮助用户朝财富增值、财务自由的梦想迈进。</p>
+				</li>
+			</ul>
+			<a href="#top" id="btn">点 击 立 即 注 册</a>
+		</div>
+	</div>
+</body>
+</html>
